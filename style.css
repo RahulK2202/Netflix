@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:  white;
+    font-family: "poppins",sans-serif;
+}
+.navbar{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    padding: 3% 5%;
+    z-index: 10;
+}
+.navbar_netflix{
+    width: 125px;
+    height: 100%;
+}
+.navbar_nav_items{
+    display: flex;
+    gap: 10px;
+   
+
+}
+.netflix_logo{
+    
+    
+     width: 100%;
+    height: 100%;
+    
+    
+      
+}
+.language_drop_down{
+    background: transparent;
+    border: none;
+    color:white;
+}
+.dropdown{
+    border: 1px solid white;
+    padding:0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+    
+  
+}
+
+.sign{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 40px;
+    width:100px
+}
+.bck{
+
+
+width:100%;
+height:100%;
+}
+
+.herobg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.herobg_overlay{
+position: absolute;
+inset: 0;
+width:100%;
+height:100%;
+background: rgba(0, 0, 0, 0.4);
+}
+.herocard{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.herotitle{
+    
+font-weight: 600;
+font-size: 3rem;
+
+}
+
+.herosubtitle,
+.herodiscription
+{
+    
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.email{
+ 
+    width: 450px;
+    height: 60px;
+    color:black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
+.get{
+    font-size: large;
+    width:170px;
+    height:60px;
+    background-color: #dc030f;
+    border:1px solid #dc030f;
+    color:white;
+
+}
+.card1,
+.card2,
+.card3
+{
+border-top: 8px rgba(69, 69, 69);
+padding: 50px;
+}
+
+.card1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+}
+.discrption1{
+
+    padding-left: 80px;
+
+}
+
+.video1{
+position: relative;
+width: 100%;
+height: 59%;
+grid-column: 2/2;
+grid-row: 1/2;
+z-index: -1;
+margin-left: 128px;
+}
+.card1 img{
+height: 100;
+grid-column: 2/2;
+grid-row: 1/2;
+max-width: 110%;
+margin-left: 97px;
+}
+.stylecard h1{
+
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.stylecard h3{
+
+ font-size: 1.6rem;
+ line-height: 2rem;
+}
+
+
+
+
+.card2{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 15px 130px 50px;
+    
+}
+.card2 img{
+
+    margin-LEFT: -110px;
+    
+}
+.discription2{
+    padding-left:80px;
+    
+   
+}
+.card3{
+
+    position: relative;
+    display: inline-grid;
+    
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 45px 85px 40px;
+}
+.discription3{
+
+    padding-left: 120px;
+    padding-right: 20px;
+}
+
+.card3 img{
+
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    max-width: 110%;
+    margin-left:97px;
+    
+}
+.card3 video{
+    position: relative;
+    width: 96%;
+    height: 43%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    margin-left: 128px;
+    margin-bottom: 140px;
+    
+}
+.card4{
+
+    position: relative;
+    display: inline-grid;
+    
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.list{
+     border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
+    width: 100%;
+    background: #000000;
+    display: block;
+    text-align: left;
+}
+
+.faq{
+    text-align: center;
+}
+
+.faq h1{
+
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.list{
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+.list li{
+padding: 20px,30px;
+margin: 5px;
+font-size: 1.6rem;
+background-color: #393939;
+color: white;
+text-align: left;
+width: 50%;
+list-style: none;
+
+}
+.faq p{
+    padding-top:60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+
+}
+
+
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+.footer,
+.footer a{
+    color:#393939;
+    font-size:0.9rem;
+    text-decoration: none;
+    
+}
+.footer p{
+margin-bottom: 1.5rem;
+
+}
+.foot li{
+
+    list-style-type: none;
+}
+.footer .foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+   
+    text-decoration: none;
+    
+}
+
+    
+
